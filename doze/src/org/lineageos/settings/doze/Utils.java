@@ -25,6 +25,9 @@ import android.support.v7.preference.PreferenceManager;
 import android.provider.Settings;
 import android.util.Log;
 
+import android.hardware.display.AmbientDisplayConfiguration;
+
+import static android.provider.Settings.Secure.DOZE_ALWAYS_ON;
 import static android.provider.Settings.Secure.DOZE_ENABLED;
 
 public final class Utils {
